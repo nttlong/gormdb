@@ -3,7 +3,8 @@ package compiler_test
 import (
 	"strings"
 	"testing"
-	"vngom/gormex/expr/compiler"
+
+	"github.com/nttlong/gormdb/expr/compiler"
 
 	"github.com/stretchr/testify/assert"
 )

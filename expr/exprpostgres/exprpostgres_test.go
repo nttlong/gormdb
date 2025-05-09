@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"vngom/gormex/expr/exprpostgres"
+	"github.com/nttlong/gormdb/expr/exprpostgres"
 
 	"github.com/stretchr/testify/assert"
 )

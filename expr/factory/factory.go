@@ -1,10 +1,9 @@
 package factory
 
 import (
-	"vngom/gormex/expr"
-	_ "vngom/gormex/expr"
-	"vngom/gormex/expr/exprpostgres"
-	_ "vngom/gormex/expr/exprpostgres"
+	"github.com/nttlong/gormdb/expr"
+
+	"github.com/nttlong/gormdb/expr/exprpostgres"
 )
 
 func NewExpr(driver string) expr.IExpr {

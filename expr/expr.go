@@ -1,7 +1,7 @@
 package expr
 
 import (
-	"vngom/gormex/expr/compiler"
+	"github.com/nttlong/gormdb/expr/compiler"
 )
 
 type IBaseExpr interface {

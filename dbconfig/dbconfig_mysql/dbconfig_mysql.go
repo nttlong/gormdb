@@ -2,8 +2,9 @@ package dbconfig_mysql
 
 import (
 	"strings"
-	"vngom/gormex/dbconfig"
-	"vngom/gormex/dberrors"
+
+	"github.com/nttlong/gormdb/dbconfig"
+	"github.com/nttlong/gormdb/dberrors"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

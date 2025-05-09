@@ -3,7 +3,8 @@ package dbconfig_mysql_test
 import (
 	"fmt"
 	"testing"
-	"vngom/gormex/dbconfig/dbconfig_mysql"
+
+	"github.com/nttlong/gormdb/dbconfig/dbconfig_mysql"
 
 	assert "github.com/stretchr/testify/assert"
 )

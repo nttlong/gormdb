@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"strings"
 	"sync"
-	"vngom/gormex/expr"
-	_ "vngom/gormex/expr"
-	"vngom/gormex/expr/compiler"
+
+	"github.com/nttlong/gormdb/expr"
+
+	"github.com/nttlong/gormdb/expr/compiler"
 )
 
 type ExprPostgres struct {
